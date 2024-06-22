@@ -1,4 +1,4 @@
-FROM amazonlinux:latest
+ amazonlinux:latest
 
 # Install dependencies
 RUN yum update -y && \
