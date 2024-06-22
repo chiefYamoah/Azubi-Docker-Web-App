@@ -9,7 +9,7 @@ $password = $_POST['password'];
 
 // Check if the entered username and password match the stored credentials
 if ($username === $stored_username && $password === $stored_password) {
-    echo 'Login successful!';
+    echo 'Welcome, This is Admin!';
 } else {
     echo 'Invalid username or password.';
 }
