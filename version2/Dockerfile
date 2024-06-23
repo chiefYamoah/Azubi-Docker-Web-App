@@ -1,7 +1,9 @@
-FROM php
+# Use the official PHP image as the base image
+FROM php:7.4-apache
 
-COPY index.html login.php /var/www/html/
+# Copy the HTML and PHP files to the Apache document root
+COPY index.html /var/www/html/
+COPY login.php /var/www/html/
 
-EXPOSE 80
-
-CMD ["php", "-S", "0.0.0.0:80"]
+# Expose port 8000 to the host
+EXPOSE 8000
