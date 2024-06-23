@@ -6,4 +6,4 @@ COPY index.html /var/www/html/
 COPY login.php /var/www/html/
 
 # Expose port 8000 to the host
-EXPOSE 8000
+EXPOSE 80
