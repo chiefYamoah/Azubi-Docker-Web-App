@@ -5,5 +5,5 @@ FROM php:7.4-apache
 COPY index.html /var/www/html/
 COPY login.php /var/www/html/
 
-# Expose port 8000 to the host
+# Expose port 80 to the host
 EXPOSE 80
