@@ -9,4 +9,4 @@ COPY login.php /var/www/html/
 EXPOSE 80
 
 # set the default application that will start when the container start
-ENTRYPOINT ["/usr/sbin/httpd", "-D", "FOREGROUND"]
+CMD ["apache2-foreground"]
